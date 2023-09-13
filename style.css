@@ -10,8 +10,8 @@
   --title-color: hsl(var(--hue-color), 4%, 95%);
   --text-color: hsl(var(--hue-color), 4%, 75%);
   --text-color-light: hsl(var(--hue-color), 4%, 65%);
-  --white-color: #FFF;
-  --body-color: hsl(var(--hue-color), 4%, 6%);
+  --white-color: rgb(184, 0, 0);
+  --body-color: hsl(var(--hue-color), 0%, 0%);
   --container-color: hsl(var(--hue-color), 4%, 10%);
   --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
   --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
@@ -238,7 +238,7 @@ img {
 }
 
 .home__header {
-  position: relative;
+  position: relative
 }
 
 .home__title {
@@ -690,7 +690,7 @@ img {
     left: 4rem;
   }
   .home__data {
-    padding-top: 8rem;
+    padding-top: 9rem;
   }
   .specs__img {
     width: 300px;
@@ -763,4 +763,8 @@ img {
   .footer__copy {
     margin-top: 9rem;
   }
-}
+}.map_google {
+  display: flex;
+  justify-content: center;
+
+
