@@ -296,7 +296,7 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
-  column-gap: .75rem;
+  column-gap: .60rem;
 }
 
 /*=============== SPONSOR ===============*/
@@ -357,7 +357,7 @@ img {
 }
 
 .case__data {
-  padding: 5rem 0 3rem;
+  padding: 0rem 0rem;
 }
 
 .case__img {
@@ -367,8 +367,9 @@ img {
 }
 
 .case__description {
-  margin-bottom: var(--mb-1-5);
-  line-height: var(--text-line-height);
+  width: 500px;
+  left: 1000rem;
+  position: sticky;
 }
 
 /*=============== DISCOUNT ===============*/
@@ -576,10 +577,14 @@ img {
   }
   .section__title {
     font-size: var(--big-font-size);
+    width: 100px;
+    top: 10rem;
+    left: 30px;
   }
   .home__img {
     width: 200px;
     top: -13rem;
+  
   }
   .home__title {
     top: -4rem;
@@ -766,5 +771,4 @@ img {
 }.map_google {
   display: flex;
   justify-content: center;
-
 
