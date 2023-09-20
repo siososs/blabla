@@ -110,6 +110,7 @@ img {
   font-size: var(--bigger-font-size);
   text-align: center;
   margin-bottom: var(--mb-2-5);
+  margin-top: 50px;
 }
 
 .section__title-gradient {
@@ -356,9 +357,7 @@ img {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.case__data {
-  padding: 0rem 0rem;
-}
+
 
 .case__img {
   width: 250px;
@@ -366,11 +365,7 @@ img {
   left: -7rem;
 }
 
-.case__description {
-  width: 500px;
-  left: 1000rem;
-  position: sticky;
-}
+
 
 /*=============== DISCOUNT ===============*/
 .discount__container {
@@ -498,6 +493,8 @@ img {
 
 .footer__social {
   display: flex;
+  align-items: center;
+  justify-content: center;
   column-gap: 1.25rem;
 }
 
@@ -607,9 +604,7 @@ img {
     top: -2rem;
     left: -9rem;
   }
-  .case__data {
-    padding: 0;
-  }
+
   .products__container {
     grid-template-columns: 142px;
     justify-content: center;
@@ -639,9 +634,7 @@ img {
   .case__img {
     position: initial;
   }
-  .case__data {
-    padding: 0;
-  }
+
   .case__container {
     grid-template-columns: max-content 250px;
     justify-content: center;
@@ -706,9 +699,7 @@ img {
   .case__img {
     width: 300px;
   }
-  .case__description {
-    margin-bottom: var(--mb-2);
-  }
+
   .discount__container {
     grid-template-columns: 250px max-content;
     justify-content: center;
@@ -771,4 +762,9 @@ img {
 }.map_google {
   display: flex;
   justify-content: center;
-
+}
+.nao-gostei{
+display: flex;
+justify-content: center;
+align-self: center;
+}
